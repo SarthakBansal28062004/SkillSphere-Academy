@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SkillSphere Academy</title>
+    <link rel="stylesheet" href="./Css/index.css">
+    <style>
+        body{
+            background-image: url("./images/bg-texture.png");
+        }
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+</head>
+<body>
+    <nav>
+        <div class="container nav__container">
+            <a href="index.html"><h4>SkillSphere Academy</h4></a>
+            <ul class="nav__menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <button id="open-menu-btn"><i class="fa-solid fa-bars"></i></button>
+            <button id="close-menu-btn"><i class="fa-solid fa-xmark"></i></button>
+        </div>
+    </nav>
+
+    <header>
+        <div class="container header__container">
+            <div class="header__left">
+                <h1>Grow Your Skills & Advance Your Career</h1>
+                <p>Empowering your future, one tech skill at a time. Unlock your potential with cutting-edge courses and hands-on learning. Join us to lead the tech revolution, connect with industry experts, and transform your career. Whether you're a beginner or a professional, our platform is designed to help you excel and innovate in the ever-evolving world of technology. Your journey to becoming a tech leader starts here.</p>
+                <a href="courses.html" class="btn btn-primary">Get Started</a>
+            </div>
+            <div class="header__right">
+                <div class="header__right-image">
+                    <img src="./images/header.png">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="categories">
+        <div class="container categories__container">
+            <div class="categories__left">
+                <h1>Categories</h1>
+                <p>Unlock your potential with cutting-edge courses and hands-on learning. Join us to lead the tech revolution, connect with industry experts, and transform your career. Whether you're a beginner or a professional, our technology courses are designed to help you excel and innovate in the ever-evolving world of technology.</p>
+                <a href="#" class="btn ">Learn More</a>
+            </div>
+            <div class="categories__right">
+                <article class="category">
+                    <span class="category__icon"><i class="fa-brands fa-hive"></i></span>
+                    <h5>BlockChain</h5>
+                    <p>Dive into the world of decentralized technology and blockchain development.</p>
+                </article>
+                <article class="category">
+                    <span class="category__icon"><i class="fa-solid fa-compass-drafting"></i></span>
+                    <h5>Graphic Design</h5>
+                    <p>Unleash your creativity with professional graphic design tools and techniques.</p>
+                </article>
+                <article class="category">
+                    <span class="category__icon"><i class="fa-brands fa-apple"></i></span>
+                    <h5>App Development</h5>
+                    <p>Master the art of creating seamless and innovative mobile applications.</p>
+                </article>
+                <article class="category">
+                    <span class="category__icon"><i class="fa-solid fa-database"></i></span>
+                    <h5>Data Structures & Algorithms</h5>
+                    <p>Strengthen your problem-solving skills with comprehensive DSA training.</p>
+                </article>
+                <article class="category">
+                    <span class="category__icon"><i class="fa-solid fa-circle-nodes"></i></span>
+                    <h5>Web Development</h5>
+                    <p>Build dynamic, responsive websites and web applications with cutting-edge technologies.</p>
+                </article>
+                <article class="category">
+                    <span class="category__icon"><i class="fa-brands fa-wolf-pack-battalion"></i></span>
+                    <h5>Ethical Hacking</h5>
+                    <p>Learn to protect and secure digital environments by mastering ethical hacking techniques.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section class="courses">
+        <h2>Our Popular Courses</h2>
+        <div class="container courses__container">
+            <article class="course">
+                <div class="course__image">
+                    <img src="./images/course1.png">
+                </div>
+                <div class="course__info">
+                    <h4>Ethical Hacking Essentials: Hack Into The Deep</h4>
+                    <p>Learn the fundamentals of ethical hacking, including penetration testing, vulnerability assessment, and security best practices. Gain hands-on experience with tools and techniques used by cybersecurity professionals.</p>
+                    <a href="courses.html" class="btn btn-primary">Learn More</a>
+                </div>
+            </article>
+
+            <article class="course">
+                <div class="course__image">
+                    <img src="./images/course2.png">
+                </div>
+                <div class="course__info">
+                    <h4>Blockchain Development: From Basics to Smart Contracts</h4>
+                    <p>Dive into the world of blockchain technology and learn how to develop decentralized applications (DApps) using Ethereum and Solidity. Explore blockchain architecture, consensus algorithms, and smart contract development.</p>
+                    <a href="courses.html" class="btn btn-primary">Learn More</a>
+                </div>
+            </article>
+
+            <article class="course">
+                <div class="course__image">
+                    <img src="./images/course3.png">
+                </div>
+                <div class="course__info">
+                    <h4>App Development Mastery: Android and iOS</h4>
+                    <p>Master app development for Android and iOS platforms. Build interactive and functional mobile applications from scratch, covering UI/UX design, backend integration, and app deployment strategies.</p>
+                    <a href="courses.html" class="btn btn-primary">Learn More</a>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <section class="faqs">
+        <h2>Frequently Asked Questions</h2>
+        <div class="container faqs__container">
+            <article class="faq">
+                <div class="faq__icon"><i class="fa-solid fa-plus"></i></div>
+                <div class="question__answer">
+                    <h4>Are the courses suitable for beginners?</h4>
+                    <p>Yes, we offer courses for all skill levels, from beginners to advanced learners. Each course is designed to provide a solid foundation and progressively build up your knowledge and skills.</p>
+                </div>
+            </article>
+            <article class="faq">
+                <div class="faq__icon"><i class="fa-solid fa-plus"></i></div>
+                <div class="question__answer">
+                    <h4>How can I enroll in a course?</h4>
+                    <p>To enroll in a course, simply create an account on SkillSphere Academy, browse our course catalog, and select the course you are interested in. Follow the enrollment instructions and start learning immediately.</p>
+                </div>
+            </article>
+            <article class="faq">
+                <div class="faq__icon"><i class="fa-solid fa-plus"></i></div>
+                <div class="question__answer">
+                    <h4>What is the format of the courses?</h4>
+                    <p>Our courses are primarily online and include a mix of video lectures, interactive assignments, quizzes, and practical projects. This format allows you to learn at your own pace and apply what you havve learned in real-world scenarios.</p>
+                </div>
+            </article>
+            <article class="faq">
+                <div class="faq__icon"><i class="fa-solid fa-plus"></i></div>
+                <div class="question__answer">
+                    <h4>Do I receive a certificate upon completion of a course?</h4>
+                    <p>Yes, upon successfully completing a course, you will receive a certificate of completion that you can share with employers, add to your resume, and display on your LinkedIn profile.</p>
+                </div>
+            </article>
+            <article class="faq">
+                <div class="faq__icon"><i class="fa-solid fa-plus"></i></div>
+                <div class="question__answer">
+                    <h4>What courses are available on SkillSphere Academy?</h4>
+                    <p>SkillSphere Academy offers a wide range of courses, including App Development, Web Development, Ethical Hacking, Data Structures and Algorithms (DSA), Graphic Design, Blockchain, Business, Creative Arts, Health and Wellness, Personal Development, Languages, Science and Mathematics, and Social Sciences.</p>
+                </div>
+            </article>
+            <article class="faq">
+                <div class="faq__icon"><i class="fa-solid fa-plus"></i></div>
+                <div class="question__answer">
+                    <h4>Are there any prerequisites for enrolling in a course?</h4>
+                    <p>Some advanced courses may have prerequisites, which will be listed in the course description. For most beginner and intermediate courses, there are no prerequisites.</p>
+                </div>
+            </article>
+            <article class="faq">
+                <div class="faq__icon"><i class="fa-solid fa-plus"></i></div>
+                <div class="question__answer">
+                    <h4>Can I access the course material after completion?</h4>
+                    <p>Yes, once you enroll in a course, you will have lifetime access to the course material. This allows you to revisit the content and continue learning at your own pace.</p>
+                </div>
+            </article>
+            <article class="faq">
+                <div class="faq__icon"><i class="fa-solid fa-plus"></i></div>
+                <div class="question__answer">
+                    <h4>Is there a community or forum for students?</h4>
+                    <p>Yes, SkillSphere Academy has an active online community where students can connect, share knowledge, ask questions, and collaborate on projects. Our forums and discussion boards are a great way to engage with fellow learners and instructors.</p>
+                </div>
+            </article>
+            <article class="faq">
+                <div class="faq__icon"><i class="fa-solid fa-plus"></i></div>
+                <div class="question__answer">
+                    <h4>What if I have technical issues or need help?</h4>
+                    <p>If you encounter any technical issues or need assistance, our support team is available to help. You can contact us through the support section on our website or email us directly at support@skillsphereacademy.com.</p>
+                </div>
+            </article>
+            <article class="faq">
+                <div class="faq__icon"><i class="fa-solid fa-plus"></i></div>
+                <div class="question__answer">
+                    <h4>Are there any discounts or financial aid options available?</h4>
+                    <p>Yes, we offer various discounts and financial aid options for eligible students. Check our website for current promotions, or contact our support team to learn more about financial aid opportunities.</p>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <section class="container testimonials__container swiper mySwiper">
+        <h2>Studets Testimonials</h2>
+        <div class="swiper-wrapper">
+            <article class="testimonial swiper-slide">
+                <div class="avatar">
+                    <img src="./images/tm1.png">
+                </div>
+                <div class="testimonial__info">
+                    <h5>Suzzane D'souza</h5>
+                    <small>Microsoft</small>
+                </div>
+                <div class="testimonial__body">
+                    <p>SkillSphere Academy transformed my career! The comprehensive courses and hands-on learning approach helped me master new skills and land my dream job in tech. Highly recommended!</p>
+                </div>
+            </article>
+
+            <article class="testimonial swiper-slide">
+                <div class="avatar">
+                    <img src="./images/tm2.png">
+                </div>
+                <div class="testimonial__info">
+                    <h5>John Doe</h5>
+                    <small>Google</small>
+                </div>
+                <div class="testimonial__body">
+                    <p>I've never experienced such engaging online learning before. SkillSphere Academy's courses are top-notch, with clear explanations and practical projects that boosted my confidence and expertise.</p>
+                </div>
+            </article>
+
+            <article class="testimonial swiper-slide">
+                <div class="avatar">
+                    <img src="./images/tm3.png">
+                </div>
+                <div class="testimonial__info">
+                    <h5>Daniel Hazelwood</h5>
+                    <small>Apple Inc.</small>
+                </div>
+                <div class="testimonial__body">
+                    <p>As a beginner in web development, SkillSphere Academy provided me with the perfect learning environment. The supportive community, expert instructors, and well-structured curriculum made my learning journey smooth and enjoyable.</p>
+                </div>
+            </article>
+
+            <article class="testimonial swiper-slide">
+                <div class="avatar">
+                    <img src="./images/tm5.png">
+                </div>
+                <div class="testimonial__info">
+                    <h5>Jane Doe</h5>
+                    <small>Atlassian</small>
+                </div>
+                <div class="testimonial__body">
+                    <p>I'm amazed by the variety of courses offered on SkillSphere Academy. From coding to design to business, there's something for everyone. The quality of instruction and resources exceeded my expectations.</p>
+                </div>
+            </article>
+
+            <article class="testimonial swiper-slide">
+                <div class="avatar">
+                    <img src="./images/tm6.png">
+                </div>
+                <div class="testimonial__info">
+                    <h5>Mary Stark</h5>
+                    <small>Meta</small>
+                </div>
+                <div class="testimonial__body">
+                    <p>Enrolling in SkillSphere Academy was one of the best decisions I made. The flexible learning schedule allowed me to balance work and learning effectively. Now, I'm equipped with in-demand skills that have opened up new opportunities for me.</p>
+                </div>
+            </article>
+
+            <article class="testimonial swiper-slide">
+                <div class="avatar">
+                    <img src="./images/tm4.png">
+                </div>
+                <div class="testimonial__info">
+                    <h5>Eleena Joseph</h5>
+                    <small>JP Morgan</small>
+                </div>
+                <div class="testimonial__body">
+                    <p>SkillSphere Academy's emphasis on practical skills and real-world applications set it apart from other online platforms. I gained valuable insights and hands-on experience that translated directly into my work projects. Thank you for such a valuable learning experience!</p>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container footer__container">
+            <div class="footer__1">
+                <a href="index.html" class="footer__logo"><h4>Education</h4></a>
+                <p>Empower Your Future with SkillSphere Academy - Unlock Your Potential Today!</p>
+            </div>
+            <div class="footer__2">
+                <h4>Permalinks</h4>
+                <ul class="permalinks">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="courses.html">Courses</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer__3">
+                <h4>Privacy</h4>
+                <ul class="primacy">
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms And Conditions</a></li>
+                    <li><a href="#">Refund Policy</a></li>
+                </ul>
+            </div>
+            <div class="footer__4">
+                <h4>Contact Us</h4>
+                <div>
+                    <p>+11 369 000 4020</p>
+                    <p>skillsphereacademy@gmail.com</p>
+                    <div class="footer__socials">
+                        <li><a href="#"><i class="fa-brands fa-meta"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer__copyright">
+            <small>Copyright &copy; SkillSphere Academy</small>
+        </div>
+    </footer>
+    
+
+    <script src="main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- Testimonial Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+          slidesPerView: 1,
+          spaceBetween: 30,
+          pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+          },
+          breakpoints: {
+            600: {
+                slidesPerView: 2,
+            }
+          }
+        });
+      </script>
+</body>
+</html>
